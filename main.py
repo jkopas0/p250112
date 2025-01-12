@@ -62,7 +62,7 @@ class app:
 				if pos == -1: return -1
 			elif self.user_input[pos] == ')':
 				self.user_input.pop(pos)
-				return self.handle_operatins(pos_start, pos)
+				return self.handle_operations(pos_start, pos)
 			end = len(self.user_input)
 			pos += 1
 		return self.handle_operations(pos_start, pos)
